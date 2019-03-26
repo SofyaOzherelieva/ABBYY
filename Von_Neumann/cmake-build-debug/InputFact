@@ -1,0 +1,29 @@
+PUSH 1
+IN
+<-JUMP 42
+OUT
+END
+
+
+->TO 42
+PUSH 2
+<-JUMPGR 2
+
+PUSH 0
+<-JUMPEQ 0
+
+MUL
+RET
+
+
+->TO 0
+POP
+PUSH 1
+RET
+
+->TO 2
+DBL
+PUSH 1
+SUB
+<-JUMP 42
+RET

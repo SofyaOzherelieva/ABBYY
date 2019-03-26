@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o CMakeFiles/Von_Neumann.dir/main.cpp.o  -o Von_Neumann 

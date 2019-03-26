@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/hometask_4.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o CMakeFiles/hometask_4.dir/main.cpp.o  -o hometask_4 

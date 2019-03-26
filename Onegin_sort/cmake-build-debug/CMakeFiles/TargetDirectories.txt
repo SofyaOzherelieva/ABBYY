@@ -1,0 +1,3 @@
+/home/sofya/Homework/Ded_hometasks/educational_programming/Onegin_sort/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sofya/Homework/Ded_hometasks/educational_programming/Onegin_sort/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sofya/Homework/Ded_hometasks/educational_programming/Onegin_sort/cmake-build-debug/CMakeFiles/Onegin_sort.dir

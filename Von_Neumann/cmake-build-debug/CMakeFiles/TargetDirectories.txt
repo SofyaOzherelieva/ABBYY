@@ -1,0 +1,3 @@
+/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/cmake-build-debug/CMakeFiles/Von_Neumann.dir
