@@ -1,24 +1,28 @@
+#PRINT 289 
+#PRINT 339 
 IN 
+#PRINT 364 
 FSTR 0 
 PUSH 0 
 FSTR 1 
-CALL 57 
+CALL 93 
 FRTS 1 
+#PRINT 380 
 OUT 
 END 
-->TO 57 
+->TO 93 
 FRTS 0 
 PUSH 1 
-<-JUMPEQ 227 
+<-JUMPEQ 263 
 POP 
 FRTS 0 
 PUSH 0 
-<-JUMPEQ 227 
+<-JUMPEQ 263 
 FRTS 0 
 PUSH 1 
 SUB 
 FSTR 0 
-CALL 57 
+CALL 93 
 DBL 
 PUSH 1 
 SUB 
@@ -26,14 +30,19 @@ PUSH 1
 SUB 
 FSTR 0 
 FRTS 1 
-CALL 57 
+CALL 93 
 FRTS 1 
 ADD 
 FSTR 1 
 POP 
 RET 
-->TO 227 
+->TO 263 
 POP 
 PUSH 1 
 FSTR 1 
 RET 
+.data
+289 Hello,_I_am_ready_to_calculate_Fibonacci_number!
+339 Enter_a_number,_please:
+364 Calculating...
+380 Answer_is:

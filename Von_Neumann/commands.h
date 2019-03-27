@@ -103,3 +103,12 @@ COMMAND(DBL, "DBL", 0, {
   stack.Push(temp);
 })
 
+COMMAND(PRINT, "#PRINT", 1, {
+  int to_print = command.argv_[0];
+  while(raw_data[to_print] != '\n') {
+    fprintf(stdout, "%c", raw_data[to_print]);
+    to_print++;
+  }
+  fprintf(stdout, "\n");
+})
+

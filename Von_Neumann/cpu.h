@@ -21,17 +21,29 @@ void compile(const char *in_file, const char *out_file = "myBinFile") {
   std::vector<std::pair<double, size_t> > from;
   std::map<double, size_t>                to;
 
-  for (int i = 0; i < program_text.lines_count(); i++) {
+  std::vector<std::pair<double, size_t> > from_data;
+  std::map<double, size_t>                to_data;
+
+  int i = 0;
+  for (i = 0; i < program_text.lines_count(); i++) {
     const std::string command_line = program_text[i]->start_index_;
 
     if (command_line.empty()) {
       continue;
     }
 
+    if(command_line == ".data"){
+      break;
+    }
+
     Parser::command_from_str(command_line, &command);
 
     if (command.name_[0] == '<' && command.name_[1] == '-' || command.name_ == "CALL") {
       from.emplace_back(command.argv_[0], program.size() + 1); // +1 имя команды
+    }
+
+    if(command.name_[0] == '#'){
+      from_data.emplace_back(command.argv_[0], program.size() + 1); // +1 имя команды
     }
 
     program.append(reinterpret_cast<const char *>(&command.num_), sizeof(command.num_));
@@ -41,11 +53,37 @@ void compile(const char *in_file, const char *out_file = "myBinFile") {
       to.emplace(command.argv_[0], program.size());
     }
   }
+  //////////////////////////////////////////////////////////
+  program.append(".data", sizeof(char)*5);
+
+  for(int j = i + 1; j < program_text.lines_count(); j++){
+    const std::string command_line = program_text[j]->start_index_;
+
+    if (command_line.empty()) {
+      continue;
+    }
+    std::string parts[MAX_ARGC + 1]; // + 1 for command word
+    size_t      size = 0;
+    Parser::parse_line(command_line, parts, &size);
+
+    int data_num = static_cast<int>(std::stod(parts[0]));
+    to_data.emplace(data_num, program.size() + 1);// + 1 for command word
+
+    program.append(reinterpret_cast<const char *>(&data_num), sizeof(command.num_));
+    parts[1] += '\n';
+    program.append(parts[1]);
+  }
 
   for (const auto &from_ : from) {
     auto to_ = to.find(from_.first);
     assert(to_ != to.end());
     *reinterpret_cast<double *>(&program[from_.second]) = to_->second;
+  }
+
+  for (const auto &from_data_ : from_data) {
+    auto to_data_ = to_data.find(from_data_.first);
+    assert(to_data_ != to.end());
+    *reinterpret_cast<double *>(&program[from_data_.second]) = to_data_->second;
   }
 
   std::ofstream out(out_file);
@@ -56,7 +94,6 @@ void compile(const char *in_file, const char *out_file = "myBinFile") {
 
 // Decompile binary file
 void decompile(std::ostream &out, const char *input_filename = "myBinFile") {
-  //static const int MAXSIZE = 1e6;
   char text[MAXSIZE];
 
   size_t size = Parser::read_bin_file(text);
@@ -76,7 +113,27 @@ void decompile(std::ostream &out, const char *input_filename = "myBinFile") {
       }
     }
     out << "\n";
+    // find data section:
+    if(text[position] == '.'){
+      for (int i = 0; i < 5; i++) {
+        out << text[position];
+        position += 1;
+      }
+      out << '\n';
+      break;
+    }
   } while (position < size);
+
+  do{
+    out << position + 1 << " ";
+    position++;
+    while(text[position] != '\n'){
+      out << text[position];
+      position++;
+    }
+    position++;
+    out << "\n";
+  }while (position < size);
 }
 
 #define START_RAM 4e5
