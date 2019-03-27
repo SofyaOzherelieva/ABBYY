@@ -23,41 +23,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="inputFib" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/inputFib">
+      <file leaf-file-name="inputSum" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/inputSum">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="288">
+              <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InputFact" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/InputFact">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sum" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/Sum">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recFib" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/recFib">
+      <file leaf-file-name="inputRecFib" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/inputRecFib">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myBinFile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/myBinFile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="output" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/output">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-415">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -73,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parser.h" pinned="false" current-in-tab="false">
+      <file leaf-file-name="parser.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/parser.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
+            <state relative-caret-position="521">
               <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="e#14#46#0" expanded="true" />
@@ -88,18 +88,18 @@
       <file leaf-file-name="CCommand.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CCommand.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1115">
+            <state relative-caret-position="1638">
               <caret line="91" column="23" lean-forward="false" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cpu.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cpu.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cpu.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="2" selection-end-line="141" selection-end-column="79" />
+            <state relative-caret-position="288">
+              <caret line="76" column="5" lean-forward="false" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
               <folding>
                 <element signature="e#14#33#0" expanded="true" />
               </folding>
@@ -148,9 +148,9 @@
       <find>free</find>
       <find>raw_data</find>
       <find>registers</find>
+      <find>PushInRam</find>
       <find>FRTS</find>
       <find>PUSH</find>
-      <find>PushInRam</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -218,7 +218,7 @@
     </entry>
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -231,7 +231,30 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Von_Neumann" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="hometask_4" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="Von_Neumann" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="hometask_4" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="Von_Neumann" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Von_Neumann" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="hometask_4" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="Von_Neumann" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -260,7 +283,7 @@
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Von_Neumann" RUN_TARGET_NAME="hometask_4" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
-    <configuration name="Von_Neumann" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="recFib output" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Von_Neumann" TARGET_NAME="Von_Neumann" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Von_Neumann" RUN_TARGET_NAME="Von_Neumann">
+    <configuration name="Von_Neumann" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="inputRecFib output" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Von_Neumann" TARGET_NAME="Von_Neumann" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Von_Neumann" RUN_TARGET_NAME="Von_Neumann">
       <envs />
     </configuration>
     <configuration name="hometask_4" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="inputFib output" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Von_Neumann" TARGET_NAME="Von_Neumann" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Von_Neumann" RUN_TARGET_NAME="Von_Neumann">
@@ -292,23 +315,24 @@
       <workItem from="1553599640175" duration="15903000" />
       <workItem from="1553622431067" duration="413000" />
       <workItem from="1553622846720" duration="1391000" />
-      <workItem from="1553632803235" duration="6222000" />
+      <workItem from="1553632803235" duration="6819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123407000" />
+    <option name="totallyTimeSpent" value="124004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="239" y="71" width="1368" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24231333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24231333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29041916" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997006" sideWeight="0.50292826" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36826348" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36826348" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -353,7 +377,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/cpu.h</url>
-          <line>140</line>
+          <line>142</line>
           <option name="timeStamp" value="160" />
         </line-breakpoint>
       </breakpoints>
@@ -601,29 +625,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/input">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Stack/stack.h" />
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/output">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/myBinFile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onegin_sort/Book.cpp" />
     <entry file="file://$PROJECT_DIR$/registers.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -647,44 +649,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/inputSqEq">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="60" column="3" lean-forward="false" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/inputFib">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parser.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Sum">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -697,14 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/recFib">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commands.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -713,9 +673,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/inputSqEq">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="60" column="3" lean-forward="false" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/input">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/inputSum">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/inputRecFib">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/myBinFile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/output">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-415">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CCommand.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1115">
+        <state relative-caret-position="1638">
           <caret line="91" column="23" lean-forward="false" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
           <folding />
         </state>
@@ -723,10 +739,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cpu.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="2" selection-end-line="141" selection-end-column="79" />
+        <state relative-caret-position="288">
+          <caret line="76" column="5" lean-forward="false" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
           <folding>
             <element signature="e#14#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Onegin_sort/Book.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2949">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#46#0" expanded="true" />
           </folding>
         </state>
       </provider>

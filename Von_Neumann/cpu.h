@@ -3,8 +3,6 @@
 #include "parser.h"
 #include "CCommand.h"
 
-#define NUMBER_OF_REGISTERS 4
-
 namespace Cpu {
 
 static const int MAXSIZE = 1e6;
@@ -70,8 +68,12 @@ void decompile(std::ostream &out, const char *input_filename = "myBinFile") {
     Parser::command_from_bin(text, &command, &position);
 
     out << command.name_ << " ";
-    for (int i = 0; i < command.argc_; ++i) {
-      out << command.argv_[i] << " ";
+    if(command.name_[0] == '-' or command.name_[1] == '>'){
+      out << position << " ";
+    } else {
+      for (int i = 0; i < command.argc_; ++i) {
+        out << command.argv_[i] << " ";
+      }
     }
     out << "\n";
   } while (position < size);
