@@ -2,6 +2,8 @@
 
 #include <cstdio>
 
+const int MAX_ARGC = 4;
+
 enum Command : uint8_t {
 #define COMMAND(NUM, NAME, ARGC, CODE) \
 NUM,
@@ -45,18 +47,12 @@ std::map<std::string, Register> RegisterToStr = {
 
 struct CCommand {
 
-  explicit CCommand(std::string name = "",
-                    size_t argc = NULL,
-                    double *argv = nullptr) : name_(name),
-                                              argc_(argc),
-                                              argv_(argv),
-                                              num_(StrToCommand[name_]) {}
-
+  CCommand(){};
   CCommand(std::string *parts, size_t argc) :
     name_(parts[0]),
     argc_(argc),
-    argv_(new double[argc]),
     num_(END) {
+    assert("Too many arguments: " && argc < MAX_ARGC);
     for (int i = 0; i < argc; i++) {
 #define REGISTER(NUM, NAME) \
   if(parts[i + 1] == (NAME)){ \
@@ -72,7 +68,6 @@ struct CCommand {
 
   CCommand &operator=(const CCommand &new_command) {
     argc_ = new_command.argc_;
-    argv_ = new double[argc_];
     for (int i = 0; i < argc_; i++) {
       argv_[i] = new_command.argv_[i];
     }
@@ -82,13 +77,11 @@ struct CCommand {
   }
 
 
-  ~CCommand() noexcept {
-    delete[] argv_;
-  }
+  ~CCommand() noexcept {}
 
   std::string name_  = "";
   size_t      argc_  = NULL;
-  double      *argv_ = nullptr;
+  double      argv_[MAX_ARGC];
   Command     num_   = END;
 
 };

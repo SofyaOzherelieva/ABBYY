@@ -73,7 +73,6 @@ void command_from_bin(const char *raw_data, CCommand *command, size_t *position)
   (*position)++;
   size_t argc = command->argc_;
   if (argc) {
-    command->argv_ = new double[argc];
     for (int i     = 0; i < argc; i++) {
       command->argv_[i] = reinterpret_cast<const double *>(raw_data + *position)[i];
     }
