@@ -32,7 +32,7 @@ void compile(const char *in_file, const char *out_file = "myBinFile") {
 
     Parser::command_from_str(command_line, &command);
 
-    if (command.name_[0] == '<' && command.name_[1] == '-') {
+    if (command.name_[0] == '<' && command.name_[1] == '-' || command.name_ == "CALL") {
       from.emplace_back(command.argv_[0], program.size() + 1); // +1 имя команды
     }
 
@@ -113,6 +113,13 @@ class MyStack {
       return curr_ind == 0;
     }
 
+    void Print(){
+      for(int i = 1; i <= curr_ind; i++){
+        std::cout << *reinterpret_cast<int *>(start_ + i*sizeof(int)) << " ";
+      }
+      std::cout << '\n';
+    }
+
   private:
     char *start_;
     int curr_ind = 0;
@@ -131,6 +138,8 @@ void run(const char *input_filename = "myBinFile") {
   size_t   position = 0;
   CCommand command;
   do {
+//    stack.Print();
+//    std::cout << "RAX: "<< GetFromRam(0) << "RBX: " << GetFromRam(1) << '\n';
     Parser::command_from_bin(raw_data, &command, &position);
     switch (command.num_) {
 
