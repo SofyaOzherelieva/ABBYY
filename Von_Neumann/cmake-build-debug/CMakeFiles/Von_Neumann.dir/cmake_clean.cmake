@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o"
   "CMakeFiles/Von_Neumann.dir/main.cpp.o"
+  "CMakeFiles/Von_Neumann.dir/compile.cpp.o"
   "Von_Neumann.pdb"
   "Von_Neumann"
 )

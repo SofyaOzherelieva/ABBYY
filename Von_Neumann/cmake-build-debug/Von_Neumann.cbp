@@ -84,16 +84,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp">
-			<Option target="Von_Neumann"/>
-		</Unit>
 		<Unit filename="/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Onegin_sort/Book.h">
 			<Option target="Von_Neumann"/>
 		</Unit>
 		<Unit filename="/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/CCommand.h">
 			<Option target="Von_Neumann"/>
 		</Unit>
+		<Unit filename="/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/Text.h">
+			<Option target="Von_Neumann"/>
+		</Unit>
 		<Unit filename="/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/commands.h">
+			<Option target="Von_Neumann"/>
+		</Unit>
+		<Unit filename="/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/compile.cpp">
 			<Option target="Von_Neumann"/>
 		</Unit>
 		<Unit filename="/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/cpu.h">

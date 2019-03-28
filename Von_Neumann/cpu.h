@@ -5,14 +5,14 @@
 
 namespace Cpu {
 
-static const int MAXSIZE = 1e6;
+static const int MAXSIZE = static_cast<int>(1e6);
 char raw_data[MAXSIZE];
 
 // Compile program to binary file
 void compile(const char *in_file, const char *out_file = "myBinFile") {
   CCommand    command;
-  std::string program = "";
-  Book        program_text(in_file);
+  std::string program;
+  CText        program_text(in_file);
 
   if (!program_text.book_indexed) {
     program_text.book_index();
@@ -148,10 +148,10 @@ int GetFromRam(int id) {
   return *reinterpret_cast<int *>(raw_data + (int)START_RAM + id * sizeof(int));
 }
 
-class MyStack {
+class CStack {
   public:
 
-    MyStack(char *start) : start_(start) {}
+    explicit CStack(char *start) : start_(start) {}
 
     void Push(int x) {
       curr_ind += 1;
@@ -186,11 +186,11 @@ class MyStack {
 
 // Run program from binary file
 void run(const char *input_filename = "myBinFile") {
-  const int PROC_STACK_START = 2e5;
-  const int FUNC_STACK_START = 1e5;
+  const int PROC_STACK_START = static_cast<int>(2e5);
+  const int FUNC_STACK_START = static_cast<int>(1e5);
 
-  MyStack stack(raw_data + PROC_STACK_START);
-  MyStack return_pos(raw_data + FUNC_STACK_START);
+  CStack stack(raw_data + PROC_STACK_START);
+  CStack return_pos(raw_data + FUNC_STACK_START);
 
   Parser::read_bin_file(raw_data);
 

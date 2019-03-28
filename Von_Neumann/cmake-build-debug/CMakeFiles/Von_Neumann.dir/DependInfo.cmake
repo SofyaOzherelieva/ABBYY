@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp" "/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/cmake-build-debug/CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o"
+  "/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/compile.cpp" "/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/cmake-build-debug/CMakeFiles/Von_Neumann.dir/compile.cpp.o"
   "/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/main.cpp" "/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/cmake-build-debug/CMakeFiles/Von_Neumann.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

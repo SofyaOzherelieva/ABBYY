@@ -47,7 +47,7 @@ std::map<std::string, Register> RegisterToStr = {
 
 struct CCommand {
 
-  CCommand(){};
+  CCommand() = default;
   CCommand(std::string *parts, size_t argc) :
     name_(parts[0]),
     argc_(argc),
@@ -77,10 +77,10 @@ struct CCommand {
   }
 
 
-  ~CCommand() noexcept {}
+  ~CCommand()= default;
 
   std::string name_  = "";
-  size_t      argc_  = NULL;
+  size_t      argc_  = 0;
   double      argv_[MAX_ARGC];
   Command     num_   = END;
 

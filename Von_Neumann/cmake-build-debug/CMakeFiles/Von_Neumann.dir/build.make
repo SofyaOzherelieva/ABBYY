@@ -57,33 +57,9 @@ include CMakeFiles/Von_Neumann.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Von_Neumann.dir/flags.make
 
-CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o: CMakeFiles/Von_Neumann.dir/flags.make
-CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o: /home/sofya/Homework/6\ семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o -c "/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp"
-
-CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp" > CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.i
-
-CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp" -o CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.s
-
-CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o.requires:
-
-.PHONY : CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o.requires
-
-CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o.provides: CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Von_Neumann.dir/build.make CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o.provides.build
-.PHONY : CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o.provides
-
-CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o.provides.build: CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o
-
-
 CMakeFiles/Von_Neumann.dir/main.cpp.o: CMakeFiles/Von_Neumann.dir/flags.make
 CMakeFiles/Von_Neumann.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Von_Neumann.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Von_Neumann.dir/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Von_Neumann.dir/main.cpp.o -c "/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/main.cpp"
 
 CMakeFiles/Von_Neumann.dir/main.cpp.i: cmake_force
@@ -105,16 +81,40 @@ CMakeFiles/Von_Neumann.dir/main.cpp.o.provides: CMakeFiles/Von_Neumann.dir/main.
 CMakeFiles/Von_Neumann.dir/main.cpp.o.provides.build: CMakeFiles/Von_Neumann.dir/main.cpp.o
 
 
+CMakeFiles/Von_Neumann.dir/compile.cpp.o: CMakeFiles/Von_Neumann.dir/flags.make
+CMakeFiles/Von_Neumann.dir/compile.cpp.o: ../compile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Von_Neumann.dir/compile.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Von_Neumann.dir/compile.cpp.o -c "/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/compile.cpp"
+
+CMakeFiles/Von_Neumann.dir/compile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Von_Neumann.dir/compile.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/compile.cpp" > CMakeFiles/Von_Neumann.dir/compile.cpp.i
+
+CMakeFiles/Von_Neumann.dir/compile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Von_Neumann.dir/compile.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/compile.cpp" -o CMakeFiles/Von_Neumann.dir/compile.cpp.s
+
+CMakeFiles/Von_Neumann.dir/compile.cpp.o.requires:
+
+.PHONY : CMakeFiles/Von_Neumann.dir/compile.cpp.o.requires
+
+CMakeFiles/Von_Neumann.dir/compile.cpp.o.provides: CMakeFiles/Von_Neumann.dir/compile.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Von_Neumann.dir/build.make CMakeFiles/Von_Neumann.dir/compile.cpp.o.provides.build
+.PHONY : CMakeFiles/Von_Neumann.dir/compile.cpp.o.provides
+
+CMakeFiles/Von_Neumann.dir/compile.cpp.o.provides.build: CMakeFiles/Von_Neumann.dir/compile.cpp.o
+
+
 # Object files for target Von_Neumann
 Von_Neumann_OBJECTS = \
-"CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o" \
-"CMakeFiles/Von_Neumann.dir/main.cpp.o"
+"CMakeFiles/Von_Neumann.dir/main.cpp.o" \
+"CMakeFiles/Von_Neumann.dir/compile.cpp.o"
 
 # External object files for target Von_Neumann
 Von_Neumann_EXTERNAL_OBJECTS =
 
-Von_Neumann: CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o
 Von_Neumann: CMakeFiles/Von_Neumann.dir/main.cpp.o
+Von_Neumann: CMakeFiles/Von_Neumann.dir/compile.cpp.o
 Von_Neumann: CMakeFiles/Von_Neumann.dir/build.make
 Von_Neumann: CMakeFiles/Von_Neumann.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Von_Neumann"
@@ -125,8 +125,8 @@ CMakeFiles/Von_Neumann.dir/build: Von_Neumann
 
 .PHONY : CMakeFiles/Von_Neumann.dir/build
 
-CMakeFiles/Von_Neumann.dir/requires: CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o.requires
 CMakeFiles/Von_Neumann.dir/requires: CMakeFiles/Von_Neumann.dir/main.cpp.o.requires
+CMakeFiles/Von_Neumann.dir/requires: CMakeFiles/Von_Neumann.dir/compile.cpp.o.requires
 
 .PHONY : CMakeFiles/Von_Neumann.dir/requires
 

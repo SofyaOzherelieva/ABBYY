@@ -1,6 +1,5 @@
 #pragma once
-
-#include "../Onegin_sort/Book.h"
+\
 #include <string>
 #include <cassert>
 #include <iostream>
@@ -12,6 +11,7 @@
 #include <vector>
 
 #include "CCommand.h"
+#include "Text.h"
 
 #define EPS 0.00001
 

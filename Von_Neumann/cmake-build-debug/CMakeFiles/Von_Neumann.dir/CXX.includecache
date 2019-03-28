@@ -6,20 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp
-Book.h
-/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Onegin_sort/Book.h
-
-/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Onegin_sort/Book.h
-algorithm
--
-assert.h
--
-iostream
--
-functional
--
-
 /home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/CCommand.h
 cstdio
 -
@@ -34,7 +20,19 @@ registers.h
 registers.h
 /home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/registers.h
 
+/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/Text.h
+algorithm
+-
+cassert
+-
+iostream
+-
+functional
+-
+
 /home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/commands.h
+
+/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/compile.cpp
 
 /home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/cpu.h
 parser.h
@@ -57,8 +55,6 @@ cpu.h
 /home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/cpu.h
 
 /home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/parser.h
-../Onegin_sort/Book.h
-/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Onegin_sort/Book.h
 string
 -
 cassert
@@ -79,6 +75,8 @@ vector
 -
 CCommand.h
 /home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/CCommand.h
+Text.h
+/home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/Text.h
 commands.h
 /home/sofya/Homework/6 семестр/ABBYY/ABBYY/Von_Neumann/commands.h
 commands.h

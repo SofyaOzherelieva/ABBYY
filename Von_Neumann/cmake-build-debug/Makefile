@@ -123,32 +123,32 @@ Von_Neumann/fast:
 	$(MAKE) -f CMakeFiles/Von_Neumann.dir/build.make CMakeFiles/Von_Neumann.dir/build
 .PHONY : Von_Neumann/fast
 
-home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.o: home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o
+compile.o: compile.cpp.o
 
-.PHONY : home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.o
+.PHONY : compile.o
 
 # target to build an object file
-home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o:
-	$(MAKE) -f CMakeFiles/Von_Neumann.dir/build.make CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o
-.PHONY : home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.o
+compile.cpp.o:
+	$(MAKE) -f CMakeFiles/Von_Neumann.dir/build.make CMakeFiles/Von_Neumann.dir/compile.cpp.o
+.PHONY : compile.cpp.o
 
-home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.i: home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.i
+compile.i: compile.cpp.i
 
-.PHONY : home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.i
+.PHONY : compile.i
 
 # target to preprocess a source file
-home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.i:
-	$(MAKE) -f CMakeFiles/Von_Neumann.dir/build.make CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.i
-.PHONY : home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.i
+compile.cpp.i:
+	$(MAKE) -f CMakeFiles/Von_Neumann.dir/build.make CMakeFiles/Von_Neumann.dir/compile.cpp.i
+.PHONY : compile.cpp.i
 
-home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.s: home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.s
+compile.s: compile.cpp.s
 
-.PHONY : home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.s
+.PHONY : compile.s
 
 # target to generate assembly for a file
-home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.s:
-	$(MAKE) -f CMakeFiles/Von_Neumann.dir/build.make CMakeFiles/Von_Neumann.dir/home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.s
-.PHONY : home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.cpp.s
+compile.cpp.s:
+	$(MAKE) -f CMakeFiles/Von_Neumann.dir/build.make CMakeFiles/Von_Neumann.dir/compile.cpp.s
+.PHONY : compile.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Von_Neumann"
-	@echo "... home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.o"
-	@echo "... home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.i"
-	@echo "... home/sofya/Homework/6_семестр/ABBYY/ABBYY/Onegin_sort/Book.s"
+	@echo "... compile.o"
+	@echo "... compile.i"
+	@echo "... compile.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
