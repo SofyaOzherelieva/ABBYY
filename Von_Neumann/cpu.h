@@ -2,6 +2,7 @@
 
 #include "parser.h"
 #include "CCommand.h"
+#include "fstream"
 
 namespace Cpu {
 

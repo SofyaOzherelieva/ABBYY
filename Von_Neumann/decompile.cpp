@@ -7,13 +7,9 @@
 int main(int argc, const char **argv) {
 
   if (argc != 3) {
-    errx(1, "Exactly 2 arguments expected: input and output file");
+    errx(1, "Exactly 2 arguments expected: binary and decompile files");
   }
-
-  Cpu::compile(argv[1]);
-  Cpu::run();
-
   std::ofstream out(argv[2]);
-  Cpu::decompile(out);
+  Cpu::decompile(out, argv[1]);
   out.close();
 }

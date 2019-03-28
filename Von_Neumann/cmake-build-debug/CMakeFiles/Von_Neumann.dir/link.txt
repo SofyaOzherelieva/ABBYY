@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/Von_Neumann.dir/main.cpp.o CMakeFiles/Von_Neumann.dir/compile.cpp.o  -o Von_Neumann 
