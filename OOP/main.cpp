@@ -28,6 +28,7 @@ DERIVED_VIRTUAL_CLASS(Base, Derived, std::string b = "called from derived";)
 CLASS_END
 
 
+
 int main() {
   Base    base;
   Derived derived;
@@ -43,6 +44,6 @@ int main() {
   std::cout << "---------------------------\n";
   VIRTUAL_CALL(reallyDerived, Both);
   VIRTUAL_CALL(reallyDerived, OnlyBase);
-  VIRTUAL_CALL(reallyDerived, OnlyDerived);
+  //VIRTUAL_CALL(reallyDerived, OnlyDerived); //выбрасывает исключение
   return 0;
 }

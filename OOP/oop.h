@@ -54,6 +54,7 @@ public: \
     assert("No such function" && obj_ptr->base_v_methods.find(#method_name) != obj_ptr->base_v_methods.end()); \
     (obj_ptr->base_v_methods[#method_name])(obj_ptr);                                             \
   } else{                                                                                             \
+    assert("No such function" && (obj_ptr->base_v_methods.find(#method_name) != obj_ptr->base_v_methods.end() || obj_ptr->type != TBase));\
     if(obj_ptr->derived_v_methods.find(#method_name) != obj_ptr->derived_v_methods.end()){            \
       (obj_ptr->derived_v_methods[#method_name])(obj_ptr);                                            \
     }else{                                                                                            \
