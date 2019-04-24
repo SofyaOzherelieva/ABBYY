@@ -32,7 +32,7 @@ public:                                                   \
 #define DEFINE_METHOD(class_name, method_name, code)                                      \
   static void method_name(void* obj_ptr) {                                               \
     class_name* this_ = static_cast<class_name*>(obj_ptr);                                       \
-    std::cout << #class_name << "->" << #method_name << " ";                  \
+    std::cout << #class_name << "::" << #method_name << " ";                  \
     code;\
   };
 
