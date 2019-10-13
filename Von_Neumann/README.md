@@ -1,4 +1,4 @@
-## Виртуальная машина построенная на архитектуре фон Неймана
+## Von Neumann architecture virtual machine
 
 #### cpu.h:
 
