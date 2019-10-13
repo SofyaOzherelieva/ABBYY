@@ -2,54 +2,54 @@
 
 #### cpu.h:
 
-1. Ассемблер:
+1. Assembler:
 
-Переводит код на ассемблере в бинарный код.
+Converts assembler code to binary.
 
-Запуск:
+Run assembler:
 
 `g++ compile.cpp -o compile`
 
 `./compile <file with assembler code> <output file>`
 
-Пример:
+Example:
 
 `./compile inputRecFib myBinFile`
 
-2. Дизассемблер:
+2. Disassembler:
 
-Переводит бинарный код в код на ассемблере.
+Converts binary code to assembler.
 
-Запуск:
+Run disassembler:
 
 `g++ decompile.cpp -o decompile`
 
 `./decompile <binary file with code> <output file>`
 
-Пример:
+Example:
 
 `./decompile myBinFile myDecompFile`
 
-3. Виртуальная машина:
+3. Virtual machine:
 
-Исполянет бинарный код.
+Execute binary code.
 
-Запуск:
+Run virtual machine:
 
 `g++ run.cpp -o run`
 
 `./run <binary file with code>`
 
-Пример:
+Example:
 
 `./run myBinFile`
 
 
-#### Поддерживает:
-* рекурсию
-* текстовый вывод
-* статически размещенные данные
-* вызовы функций
+#### Supports:
+* recursion
+* text output
+* statically allocated data
+* function calls
 
 
-#### Описание команд содержится в commands.h
+#### Command descriptions are contained in commands.h
